@@ -1,0 +1,18 @@
+= Hugo Chroma
+:syntax-highlighter: hugo-chroma
+
+{{< highlight ruby >}}
+puts "highlight shortcode"
+
+class RubyClass
+end
+{{< /highlight >}}
+
+[source,ruby,attributes]
+----
+puts "chroma plugin"
+
+class RubyClass
+end
+----
+

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+../../.bin/asciidoctor -r asciidoctor-hugo-chroma "$@"

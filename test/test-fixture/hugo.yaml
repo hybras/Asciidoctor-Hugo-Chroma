@@ -1,0 +1,14 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+theme: 'anubis'
+
+markup:
+  asciidocExt:
+    extensions: []
+      # - 'asciidoctor-hugo-chroma'
+
+security:
+  exec:
+    allow:
+      - '^asciidoctor$'

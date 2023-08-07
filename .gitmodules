@@ -1,0 +1,3 @@
+[submodule "test/test-fixture/themes/anubis"]
+	path = test/test-fixture/themes/anubis
+	url = https://github.com/mitrichius/hugo-theme-anubis.git

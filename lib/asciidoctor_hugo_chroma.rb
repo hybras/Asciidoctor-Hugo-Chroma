@@ -28,10 +28,10 @@ class HugoChromaSyntaxHighlighter < Asciidoctor::SyntaxHighlighter::Base
 
   def highlight(_node, source, lang, _opts)
     # TODO: Linenumbers, highlighting, starting line number
-    <<~EOS
+    <<~SHORTCODE
       {{< highlight #{lang} >}}
       #{source}
       {{< /highlight >}}
-    EOS
+    SHORTCODE
   end
 end

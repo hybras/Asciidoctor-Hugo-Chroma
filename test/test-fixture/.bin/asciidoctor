@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-../../.bin/asciidoctor -r asciidoctor-hugo-chroma "$@"
+../../.bin/asciidoctor -r ../../lib/asciidoctor_hugo_chroma.rb "$@"

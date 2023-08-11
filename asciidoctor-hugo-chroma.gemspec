@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Use hugo's chroma syntax highlighting within asciidoctor"
   spec.homepage = "https://github.com/hybras/Asciidoctor-Hugo-Chroma"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "example-gem", "~> 1.0"
   spec.add_dependency "asciidoctor", "~> 2.0"
 
-
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+  spec.metadata["rubygems_mfa_required"] = "true"
 end

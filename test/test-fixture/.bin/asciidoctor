@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-../../.bin/asciidoctor -r ../../lib/asciidoctor_hugo_chroma.rb "$@"
+
+# cd -P -- "${0%/*}" || exit
+tee /dev/stderr | /nix/store/anp2vynvzf6pzzilcbdcsx26796qglpz-asciidoctor-2.0.18/bin/asciidoctor -r ../../lib/asciidoctor-hugo-chroma.rb --trace "$@" | tee /dev/stderr

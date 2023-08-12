@@ -13,6 +13,7 @@
               buildInputs = [
                 pkgs.ruby
                 pkgs.hugo
+                pkgs.asciidoctor
               ];
             };
           };

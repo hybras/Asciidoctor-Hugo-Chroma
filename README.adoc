@@ -1,8 +1,7 @@
 = Asciidoctor-Hugo-Chroma
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/asciidoctor/hugo/chroma`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+[WARNING]
+This gem doesn't work and is abandoned. Turns out hugo's shortcodes dont work the way I think they do.
 
 This gem allows asciidoctor to delegate syntax highlighting to https://gohugo.io[hugo], a website generator. Hugo has its own syntax highlighter library, Chroma. Delegating improves integration between hugo and asciidoctor. *This gem requires Hugo.*
 

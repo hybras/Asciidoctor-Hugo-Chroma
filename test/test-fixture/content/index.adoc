@@ -1,5 +1,5 @@
 = Hugo Chroma
-:source-highlighter: hugo-chroma
+:source-highlighter: hugo
 
 {{< highlight ruby >}}
 puts "highlight shortcode"

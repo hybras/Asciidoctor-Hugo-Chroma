@@ -1,16 +1,18 @@
 # frozen_string_literal: true
 
-require_relative "asciidoctor_hugo_chroma/version"
+require_relative "version"
 require "asciidoctor"
 require "asciidoctor/extensions"
 
+module Asciidoctor
+module SyntaxHighlighter
 # The syntax highlighter. We omit the hugo highlighting shortcode with the source code embedded.
-class HugoChromaSyntaxHighlighter < Asciidoctor::SyntaxHighlighter::Base
+class HugoSyntaxHighlighter < Asciidoctor::SyntaxHighlighter::Base
   include Asciidoctor::Logging
-  register_for "hugo-chroma"
+  register_for "hugo"
 
-  def initialize *args
-    super(*args)
+  def initialize name, backend = 'html5', opts = {}
+    super
   end
 
   def highlight?
@@ -34,4 +36,6 @@ class HugoChromaSyntaxHighlighter < Asciidoctor::SyntaxHighlighter::Base
       {{< /highlight >}}
     SHORTCODE
   end
+end
+end
 end

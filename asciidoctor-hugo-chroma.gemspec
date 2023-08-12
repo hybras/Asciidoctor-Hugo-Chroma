@@ -1,14 +1,15 @@
 # frozen_string_literal: true
 
-require_relative "lib/asciidoctor_hugo_chroma/version"
+require_relative "lib/asciidoctor/syntax_highlighter/version"
 
 Gem::Specification.new do |spec|
   spec.name = "asciidoctor-hugo-chroma"
-  spec.version = Asciidoctor::Hugo::Chroma::VERSION
+  spec.version = Asciidoctor::Hugo::VERSION
   spec.authors = ["hybras"]
   spec.email = ["24651269+hybras@users.noreply.github.com"]
 
-  spec.summary = "Use hugo's chroma syntax highlighting within asciidoctor"
+  spec.summary = "Use hugo's syntax highlighting within asciidoctor"
+  spec.description = "A no-op syntax highlighter for use with, hugo, a static site generator."
   spec.homepage = "https://github.com/hybras/Asciidoctor-Hugo-Chroma"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
